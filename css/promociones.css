@@ -1,0 +1,128 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 50px 0;
+}
+
+.card:hover {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-color: #ffcc00;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+h2, h3, footer p {
+  font-family: 'Playfair Display', serif;
+}
+
+p, label, button {
+  font-family: 'Roboto', sans-serif;
+}
+
+footer p {
+  font-size: 14px;
+}
+.cinta_encabezado {
+  background-color: #f681b6; /* Color de fondo opcional */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  gap: 1rem; /* Espaciado entre los íconos */
+  padding: 0.5rem 0;
+}
+.cinta_encabezado a {
+  font-size: 1.6rem; /* Tamaño de los íconos */
+  color: #20060d; /* Color de los íconos */
+  transition: color 0.3s ease;
+}
+.cinta_encabezado a:hover {
+  color: #d74157; /* Color al pasar el mouse */
+}
+.nombre_tienda{
+  font-family:Broadway ;
+  color: rgb(197, 34, 34);
+}
+header{
+  background-color: #f6a6b2;
+}
+.nav-link {
+  position: relative; /* Necesario para el efecto hover */
+  text-decoration: none; /* Eliminar subrayado por defecto */
+  transition: color 0.3s ease, transform 0.3s ease; /* Transiciones suaves */
+}
+
+.nav-link:hover {
+  color: #c79415; /* Cambiar color al pasar el cursor */
+  transform: scale(1.1); /* Aumentar tamaño ligeramente */
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px; /* Debajo del texto */
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #da1d1d; /* Línea de color rosa */
+  transition: width 0.3s ease; /* Transición suave de la línea */
+}
+
+.nav-link:hover::after {
+  width: 100%; /* Extender línea debajo del texto al pasar el cursor */
+}
+.carousel-item img {
+  max-height: 500px; /* Altura máxima de las imágenes */
+  object-fit: cover;
+}
+.imagen1 {
+  object-fit: cover; /* Asegura que la imagen cubra el espacio */
+  object-position: center; /* Muestra la parte inicial de la imagen */
+  height: 500px; /* Ajusta la altura del carrusel según lo necesario */
+  width: 100%; /* Asegura que ocupe todo el ancho */
+}
+.imagen2 {
+  object-fit: cover; /* Asegura que la imagen cubra el espacio */
+  object-position: 50% 30%;
+  height: 500px; /* Ajusta la altura del carrusel según lo necesario */
+  width: auto; /* Asegura que ocupe todo el ancho */
+}
+.imagen3 {
+  object-fit: cover; /* Asegura que la imagen cubra el espacio */
+  object-position: center; /* Muestra la parte inicial de la imagen */
+  height: 500px; /* Ajusta la altura del carrusel según lo necesario */
+  width: 100%; /* Asegura que ocupe todo el ancho */
+}
+
+.imagentienda {
+  object-fit: cover; /* Asegura que la imagen cubra el espacio */
+  object-position: center; /* Muestra la parte inicial de la imagen */
+  height: 500px; /* Ajusta la altura del carrusel según lo necesario */
+  width: 100%; /* Asegura que ocupe todo el ancho */
+}
+.texto-menor{
+  font-size: 13px;
+}
+.div-facilidades{
+  width: 325PX;
+}
+.div-novedades{
+  width: 325px;
+}
+footer{
+  background-color: #f681b6;
+}
+.conocemas{
+  background-color: #b7f79d;
+}
